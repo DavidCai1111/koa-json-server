@@ -1,0 +1,25 @@
+{
+  "name": "koa-json-server",
+  "version": "1.0.0",
+  "description": "koa json server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "koa",
+    "json",
+    "server"
+  ],
+  "author": "DavidCai",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^0.21.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-gzip": "^0.1.0",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^5.1.1",
+    "lowdb": "^0.8.1"
+  }
+}
