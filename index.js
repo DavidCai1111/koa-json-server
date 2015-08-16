@@ -1,3 +1,4 @@
-import jsonServer from './lib/index';
+'use strict';
+import jsonServer from './lib';
 
 export default jsonServer;
