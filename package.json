@@ -25,6 +25,8 @@
     "lowdb": "^0.8.1"
   },
   "devDependencies": {
+    "co-supertest": "0.0.10",
+    "should": "^7.0.4",
     "supertest": "^1.0.1"
   }
 }
