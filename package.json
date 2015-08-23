@@ -4,7 +4,7 @@
   "description": "koa json server",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "keywords": [
     "koa",
