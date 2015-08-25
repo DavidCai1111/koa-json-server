@@ -4,7 +4,9 @@
   "description": "koa json server",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --harmony_arrow_functions",
+    "dev": "nodemon --harmony-arrow-functions",
+    "start": "iojs --harmony-arrow-functions"
   },
   "keywords": [
     "koa",
