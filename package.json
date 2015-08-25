@@ -21,8 +21,8 @@
     "koa-json": "^1.1.1",
     "koa-logger": "^1.2.2",
     "koa-router": "^5.1.1",
-    "lodash": "^3.10.1",
-    "lowdb": "^0.8.1"
+    "lowdb": "^0.8.1",
+    "ramda": "^0.17.1"
   },
   "devDependencies": {
     "co-supertest": "0.0.10",
