@@ -24,4 +24,28 @@ describe('test for router', function() {
         });
     });
   });
+
+  describe('POST', function() {
+    it('set props', function (done) {
+      request(app.listen())
+        .post('/posts/0')
+        .send({'id': '2'})
+        .end(function (err, res) {
+          res.body.should.containEql({id: '2'});
+          done();
+        })
+    });
+
+    //tmp
+    it('set props back', function (done) {
+      request(app.listen())
+        .post('/posts/0')
+        .send({'id': '1'})
+        .end(function (err, res) {
+          res.body.should.containEql({id: '1'});
+          done();
+        })
+    });
+  });
+
 });
