@@ -4,7 +4,7 @@ A json-server implement with [koa](https://github.com/koajs/koa) (framework) and
 
 # Example
 
-If you have a json file named db.json:
+If you have a json file named `db.json`:
 
 ```json
 {
@@ -39,7 +39,7 @@ And then you can start `koa-json-server` by:
 > =============================
 ```
 
-Now you can use the RESTful API like:
+Now you can use the REST API like:
 ```
 GET       /posts
 GET       /posts/0?id=1
