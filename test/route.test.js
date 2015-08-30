@@ -81,4 +81,15 @@ describe('test for router', function() {
     });
   });
 
+  describe('DELETE', function() {
+    it('delete props with query', function (done) {
+      request(app.listen())
+        .delete('/posts/0/id')
+        .expect(200)
+        .end(function (err, res) {
+          res.body.should.not.containEql({id: '1'});
+          done();
+        });
+    });
+  });
 });
