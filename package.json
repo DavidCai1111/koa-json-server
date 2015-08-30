@@ -8,6 +8,10 @@
     "dev": "nodemon --harmony-arrow-functions",
     "start": "iojs --harmony-arrow-functions"
   },
+  "bin": {
+    "koa-json-server": "lib/index.js",
+    "kjs": "lib/index.js"
+  },
   "keywords": [
     "koa",
     "json",
